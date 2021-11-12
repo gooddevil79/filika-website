@@ -1,0 +1,98 @@
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+.mobile-wallet{
+    display: none;
+}
+.top-header-right{
+    display: flex;
+    align-items: center;
+}
+.top-header-right .top-nav ul{
+    display: flex;
+    gap: 20px;
+}
+.site-info{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 1.5em;
+}
+.site-info h4{
+    font-size: 25px;
+    font-family: iransans;
+
+}
+.site-info img{
+    width: 50px;
+}
+.top-nav ul li a{
+    display: block;
+    font-family: iransans;
+    color: #888888;
+    font-weight: 600;
+}
+.top-nav ul li a:hover{
+    color: #444;
+    transition: all ease 0.3s;
+}
+.top-header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-zone{
+    color: #888888;
+    cursor: pointer;
+}
+.profile-manager{
+    font-family: iransans;
+    font-weight: 600;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+}
+.profile-manager a{
+    color: #888888 !important;
+}
+.profile-manager img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.wallet{
+    font-family: iransans;
+    font-weight: 600;
+    color: #888888;
+    font-size: 15px;
+}
+
+
+/* second header menu */
+.sec-header-menu{
+    background-color: #444;
+
+}
+.sec-header-menu .second-nav ul {
+    display: flex;
+    max-width: 70%;
+    justify-content: space-around;
+}
+.sec-header-menu .second-nav ul li a{
+    display: block;
+    padding: 20px 0px;
+    color: #fff;
+    font-family: iransans;
+    font-size: 14px;
+}
+.sec-header-menu .second-nav ul li i{
+    font-size: 12px;
+}
+.sec-header-menu .second-nav ul li a:hover{
+    color: #b9b9b9;
+
+}

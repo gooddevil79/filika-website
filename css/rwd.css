@@ -1,0 +1,219 @@
+body {
+  overflow-x: hidden;
+}
+.mobile-menu {
+}
+@media only screen and (max-width: 992px) {
+  .top-nav a {
+    font-size: 14px !important;
+  }
+  .wallet {
+    font-size: 10px;
+  }
+  .profile-manager {
+    font-size: 14px;
+  }
+  .profile-manager img {
+    width: 60px;
+  }
+  .site-info h4 {
+    font-size: 18px;
+  }
+  .second-nav ul li a {
+    font-size: 12px !important;
+  }
+  .topic-product-info ul li .product-info-text {
+    font-size: 14px !important;
+  }
+  .topic-product-info ul li > i {
+    font-size: 30px !important;
+  }
+  .top-footer .site-info-footer h3 {
+    font-size: 15px;
+  }
+  .top-footer .customers-details > * {
+    font-size: 13px;
+  }
+  .social-medias p {
+    font-size: 14px;
+  }
+  .footer-menu li a {
+    font-size: 14px !important;
+  }
+  .footer-about-us h3 {
+    font-size: 14px;
+  }
+  .footer-about-us p {
+    font-size: 12px;
+  }
+  .contact-us {
+    font-size: 13px;
+  }
+  .footer-designer-info {
+    font-size: 12px;
+  }
+  .recently-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .rec-item {
+    flex-basis: 30%;
+  }
+}
+.mobile-menu {
+  background-color: red;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .desktop-wallet {
+    display: none;
+  }
+  .mobile-wallet {
+    display: block;
+  }
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-header-left {
+    width: 50%;
+  }
+  .profile-manager {
+    font-size: 12px;
+  }
+  .second-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sec-header-menu .second-nav ul {
+    display: none;
+  }
+  .sec-header-menu .second-nav {
+    padding: 5px;
+  }
+  .sec-header-menu .second-nav .mobile-menu-second-nav {
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 50px;
+    border-radius: 5px;
+  }
+  .sec-header-menu .mobile-menu-second-nav span {
+    background-color: #fff;
+    height: 5px;
+  }
+  .blog-suggester-container {
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 15px;
+  }
+  .blog-sugget-header {
+    font-size: 15px;
+  }
+  .mobile-menu {
+    display: block !important;
+    background-color: chocolate;
+  }
+  .top-nav {
+    display: none;
+  }
+  .top-footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #8888;
+  }
+  .customers-details ul {
+    justify-content: space-between !important;
+    font-size: 10px !important;
+  }
+
+  .top-footer .site-info-footer {
+    display: none;
+  }
+  .fast-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .fast-help-item {
+    flex-basis: 100% !important;
+  }
+
+  .recently-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .rec-item {
+    width: 100%;
+  }
+  .topic-product-info ul {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    align-items: center;
+    gap: 15px;
+    padding: 10px 80px;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .topic-search-zone {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+  }
+  .services-container {
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+  .services-container .services-item {
+    flex-basis: 80%;
+  }
+  .main-footer {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .shop-suggest-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 15px;
+  }
+  .footer-about-us {
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+  .topic-product-info ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 0 auto;
+  }
+  .topic-product-info ul li:last-child {
+    grid-column: 2/3;
+  }
+  .top-footer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .social-medias p {
+    font-size: 12px;
+  }
+  .socials-logo a img {
+    width: 25px;
+  }
+}

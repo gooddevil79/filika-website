@@ -1,0 +1,33 @@
+.topic-product-info{
+    background-color: #fff;
+}
+.topic-product-info ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,100px);
+    align-items: center;
+    gap: 15px;
+    padding: 10px 80px;
+    justify-content: space-around;
+}
+.topic-product-info ul li:hover *{
+    color: #444;
+}
+.topic-product-info ul li > i{
+    font-size: 50px;
+    color: #888888;
+}
+.topic-product-info ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: iransans;
+}
+.product-info-text{
+    color: #888888;
+    font-weight: 800;
+
+}

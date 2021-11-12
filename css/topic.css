@@ -1,0 +1,92 @@
+.topic-container{
+   background: url(/img/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg),rgb(252,249,242);
+   background-blend-mode: overlay;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-clip: border-box;
+   background-size: cover;
+   border-radius: 5px;
+}
+.topic-title{
+    font-family: iransans;
+    font-size: 40px;
+    font-weight:bolder;
+    text-align: center;
+    padding: 0 10px ;
+    padding-top: 70px;
+}
+.topic-subtitle{
+    color: #888888;
+    font-family: iransans;
+    font-size: 23px;
+    text-align: center;
+    padding: 15px;
+}
+.topic-search-zone{
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    max-width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #a3a3a3;
+}
+.topic-search-zone input{
+    flex-basis: 40%;
+    padding: 8px 10px;
+    font-size: 18px;
+    font-family: iransans;
+    border-radius: 5px;
+    background-color: #eee;
+    outline: none;
+    border: 2px solid #888888;
+}
+.topic-search-zone input:focus{
+    background-color: #fff;
+    transition: all ease 0.3s;
+}
+.topic-search-zone select{
+    flex-basis: 20%;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-family: iransans;
+    border-radius: 5px;
+    background-color: #eee;
+    outline: none;
+    border: 2px solid #888888;
+
+
+}
+.topic-search-zone select:focus{
+    background-color: #fff; 
+    transition: all ease 0.3s;
+}
+
+.topic-search-zone button{
+    flex-basis: 20%;
+    cursor: pointer;
+    color: #fff;
+    background-color: orange;
+    padding: 8px 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: iransans;
+    transition: all ease 0.3s;
+
+}
+.topic-search-zone button:hover{
+    background-color: rgb(233, 155, 10);
+    transition: all ease 0.3s;
+}
+.topic-search-zone + p{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 80px;
+    font-family: iransans;
+}

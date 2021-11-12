@@ -1,0 +1,146 @@
+/* .suggest-products-title{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    font-family: B Yekan;
+    border-bottom: 2px solid gold;
+    width: 20%;
+    padding: 20px;
+    position: relative;
+} */
+.site-title-products{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    font-family: B Yekan;
+    border-bottom: 2px solid gold;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+}
+.site-title-products i{
+    position: absolute;
+    left: 40%;
+    bottom: -10px;
+    background-color: #eeee;
+    padding: 0px 20px;
+    color: gold;}
+.suggest-products-container{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.suggest-item{
+    background-image: #fff;
+    box-shadow: 0px 0px 40px #b4b4b4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* .suggest-products-title i{
+    position: absolute;
+    left: 40%;
+    bottom: -10px;
+    background-color: #eeee;
+    padding: 0px 20px;
+    color: gold;
+} */
+.suggest-product-img {
+    padding: 10px;
+}
+.suggest-product-img img{
+    width: 100%;
+}
+.product-header{
+    font-size: 20px;
+    color: #444;
+    text-align: right;
+    font-family: iransans;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b9b6b6;
+}
+.product-price{
+    color: #888;
+    font-family: iransans;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.product-link{
+    color: #fff;
+    font-family: B yekan;
+    background-color: orange;
+    padding: 10px 0px;
+    display: block;
+    text-align: center;
+}
+.see-all-suggest-product{
+    font-size: 20px;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 15px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d3d3;
+    font-family: iransans;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    white-space: nowrap;
+
+}
+.see-all-suggest-product::before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    background-color: rgba(255, 68, 0, 0.267);
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all ease 0.5s;
+    border-radius: 50% 0% 0% 50%;
+
+
+}
+.see-all-suggest-product:hover::before{
+    width: 100%;
+    left: 0;
+    transition: all ease 0.5s;
+    border-radius: 20% 0% 0% 10%;
+
+}
+.suggest-item{
+    position: relative;
+    cursor: pointer;
+}
+.suggest-item::before{
+    content: "";
+    color: #fff;
+    font-weight: 800;
+    font-family: IRANSANS;
+    border: 40px  solid;
+    position: absolute;
+    border-color: crimson  transparent transparent crimson;
+    left: 0;
+}
+.suggest-item::after{
+    content: "تخفیف";
+    color: #fff;
+    font-weight: 800;
+    font-family: IRANSANS;
+    position: absolute;
+   left: 0;
+   z-index: 1;
+    top: 15px;
+    transform: rotate(-48deg);
+}

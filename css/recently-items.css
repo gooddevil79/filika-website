@@ -1,0 +1,142 @@
+.recently-products-title{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+    font-family: B Yekan;
+    border-bottom: 2px solid gold;
+    width: 26%;
+    padding: 20px;
+    position: relative;
+}
+.recently-products-title i{
+    position: absolute;
+    left: 145px;
+    bottom: -10px;
+    background-color: #eeee;
+    padding: 0px 20px;
+    color: gold;
+}
+.recently-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    gap: 20px;
+}
+.rec-item-subtitle{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: #8888 2px solid;
+    padding: 10px 10px 0px;
+
+}
+.rec-item-text{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.rec-item-text h4{
+    font-family: b Yekan;
+    font-weight: 400;
+    font-size: 20px;
+    color: #808080;
+    padding: 0 10px 10px;
+}
+.rec-item{
+    width: 20%;
+    display: table;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #808080;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.rec-item:hover{
+    transform: translatey(-5px);
+    box-shadow: 0px 3px 20px #808080;
+    transition: all ease 0.3s;
+}
+.rec-item::before{
+    content: "2000 تومان";
+    background-color: #19d300;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    font-size: 14px;
+    left: 2px;
+    top: 2px;
+    border-radius: 5px;
+    z-index: 0;
+}
+.rec-item::after{
+    content: "علوم انسانی";
+    background-color: rgb(230, 198, 18);
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    font-size: 14px;
+    right: 2px;
+    bottom: 105px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.rec-item-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.writer-info img{
+    width: 30px;
+}
+.writer-info{
+    display: flex;
+    align-items: center;
+    font-family: iransans;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.see-all-recent-product{
+    font-size: 20px;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 15px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d3d3;
+    font-family: iransans;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+
+}
+.see-all-recent-product::before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    background-color: rgba(255, 68, 0, 0.267);
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all ease 0.5s;
+    border-radius: 50% 0% 0% 50%;
+
+
+}
+.see-all-recent-product:hover::before{
+    width: 100%;
+    left: 0;
+    transition: all ease 0.5s;
+    border-radius: 10% 0% 0% 10%;
+
+}

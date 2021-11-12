@@ -1,0 +1,20 @@
+@font-face {
+    font-family: iransans;
+    src: url(/fonts/irsans.ttf);
+}
+@font-face {
+    font-family: iransansb;
+    src: url(/fonts/irsansb.ttf);
+}
+@font-face {
+    font-family: tahoma1;
+    src: url(/fonts/tahoma.ttf);
+}
+@font-face {
+    font-family: tahomabd;
+    src: url(/fonts/tahomabd.ttf);
+}
+@font-face {
+    font-family: parasto;
+    src: url(/fonts/Parastoo-Bold.ttf);
+}

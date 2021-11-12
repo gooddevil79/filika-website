@@ -1,0 +1,108 @@
+footer{
+    background-color: #444;
+    color: #fff;
+    box-shadow: -2px -2px 5px #333;
+}
+.footer{
+
+}
+.top-footer{
+display: grid;
+grid-template-columns: 20% 50% 30%;
+align-items: center;
+padding: 10px;
+border-bottom: 2px solid #8888;
+
+}
+.site-info-footer{
+    font-family: iransans;
+    font-size: 20px;
+    text-align: center;
+}
+.customers-details ul{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    font-family: iransans;
+}
+.social-medias{
+    font-family: iransans;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.socials-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.socials-logo a img{
+    width: 30px;
+    border-radius: 50%;
+}
+.facebook{
+    background-color: #fff;
+}
+
+
+
+.main-footer{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-menu a{
+    color: #fff;
+    font-family: iransans;
+    font-size: 15px;
+
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-menu li{
+    list-style: disc !important;
+    padding: 2px;
+}
+.footer-menu a:hover{
+    color: #afafaf;
+}
+.footer-about-us{
+    font-family: iransans;
+    text-align: right;
+}
+.footer-about-us h3{
+    padding-bottom: 20px;
+}
+.footer-about-us p{
+    font-size: 14px;
+}
+.contact-us{
+    font-family: iransans , sans-serif;
+}
+.contact-us h3{
+    margin-bottom: 10px;
+}
+.contact-us ul li{
+    margin-bottom: 5px
+}
+.main-footer{
+    padding: 10px;
+}
+.footer-designer-info{
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 10px;
+    direction: ltr;
+    font-family: sans-serif;
+    border-top: 2px solid #8888;
+}

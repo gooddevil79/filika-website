@@ -1,0 +1,28 @@
+.fast-help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: iransans;
+    gap: 15px;
+}
+.fast-help-item{
+    box-shadow: 0px 0px 20px #c7c6c6;
+    padding: 20px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-basis: 25%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    color: rgb(133, 132, 132);
+
+}
+.fast-help-item h6{
+    padding-top: 10px;
+}
+.fast-help-item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px #c7c5c5;
+    transition: all ease 0.3s;
+
+}
